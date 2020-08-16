@@ -1,0 +1,157 @@
+body {
+background-color: #E5E5E5;
+color: #212121;
+font-family: Roboto, sans-serif;
+}
+.logo-main {
+    color: #2196F3;
+}
+.hero-title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36px;
+    text-align: center;
+    letter-spacing: 0.06em;
+   }
+.section-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+  }
+.section-portfolio {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    letter-spacing: 0.06em;
+}
+.logo-header {
+    color: #212121;
+    text-decoration: none;
+}
+.logo-white {
+    color: #FFFFFF;
+}
+.link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+ }
+.link:hover {
+    color: #2196F3;
+}
+.link:focus {
+    color: #2196F3;
+}
+.site-nav .link.current {
+    color: #2196F3;
+}
+.my-btn {
+    color: #FFFFFF;
+    background-color: #2196F3;  
+    font-family: inherit;
+    font-family: Roboto;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.my-btn:focus {
+    color: #2196F3;
+}
+.text {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+}
+.text-list {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+}
+.text-portfolio {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.87px;
+    letter-spacing: 0.03em;
+}   
+
+.address {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: normal;
+}
+.contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: normal;
+}
+.button-filter {
+    color: #212121;  
+    background-color: #F5F4FA; 
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62px;
+    letter-spacing: 0.03em;
+}
+.button-filter:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.logo {
+    font-family: Raleway, sans-serif; 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+}
+.section-list {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.section-name {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+}
+.site-nav list {
+    background-color:#FFFFFF;
+}
+.hero {
+    background-color: #2F303A;  
+}
+.section-comand {
+    background-color:#F5F4FA;
+}
+.footer {
+    background-color: #2F303A;
+}
+.hero {
+    background-color: none#2F303A;
+}
