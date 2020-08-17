@@ -5,6 +5,8 @@ font-family: Roboto, sans-serif;
 }
 .logo-main {
     color: #2196F3;
+    text-decoration: none;
+    font-family: Raleway, sans-serif; 
 }
 .hero-title {
     color: #FFFFFF;
@@ -32,9 +34,11 @@ font-family: Roboto, sans-serif;
 .logo-header {
     color: #212121;
     text-decoration: none;
+    font-family: Raleway, sans-serif; 
 }
 .logo-white {
     color: #FFFFFF;
+    font-family: Raleway, sans-serif; 
 }
 .link {
     color: #212121;
@@ -42,6 +46,7 @@ font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.02em;
+    text-decoration: none;
  }
 .link:hover {
     color: #2196F3;
@@ -96,6 +101,7 @@ font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-style: normal;
     font-weight: normal;
+    text-decoration: none;
 }
 .contacts {
     color: rgba(255, 255, 255, 0.6);
@@ -105,6 +111,8 @@ font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-style: normal;
     font-weight: normal;
+    text-decoration: none;
+    
 }
 .button-filter {
     color: #212121;  
@@ -131,6 +139,8 @@ font-family: Roboto, sans-serif;
     font-size: 26px;
     line-height: 1,19em;
     letter-spacing: 0.03em;
+    text-decoration: none;
+    font-family: Raleway, sans-serif; 
 }
 .section-list {
     color: #212121;
