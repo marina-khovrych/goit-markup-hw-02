@@ -1,3 +1,12 @@
+:root {
+    --primary-text-color: #212121;
+    --primary-white-color: #FFFFFF;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
 body {
 background-color: #E5E5E5;
 color: #212121;
@@ -18,14 +27,14 @@ font-family: Roboto, sans-serif;
     letter-spacing: 0.06em;
    }
 .section-title {
-    color: #212121;
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.03em;
   }
 .section-portfolio {
-    color: #212121;
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2px;
@@ -41,7 +50,7 @@ font-family: Roboto, sans-serif;
     font-family: Raleway, sans-serif; 
 }
 .link {
-    color: #212121;
+    color:var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14em;
@@ -58,7 +67,7 @@ font-family: Roboto, sans-serif;
     color: #2196F3;
 }
 .my-btn {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     background-color: #2196F3;  
     font-family: inherit;
     font-family: Roboto;
@@ -94,7 +103,7 @@ font-family: Roboto, sans-serif;
 }   
 
 .address {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71em;
@@ -104,18 +113,17 @@ font-family: Roboto, sans-serif;
     text-decoration: none;
 }
 .contacts {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-contacts-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
     font-style: normal;
-    font-weight: normal;
     text-decoration: none;
     
 }
 .button-filter {
-    color: #212121;  
+    color: var(--primary-text-color);  
     background-color: #F5F4FA; 
     font-family: inherit;
     font-weight: 500;
@@ -133,7 +141,7 @@ font-family: Roboto, sans-serif;
     font-size: 26px;
     line-height: 1.19em;
 }
-.Web {
+.web {
     color: #2196F3;
     font-weight: 700;
     font-size: 26px;
@@ -143,7 +151,7 @@ font-family: Roboto, sans-serif;
     font-family: Raleway, sans-serif; 
 }
 .section-list {
-    color: #212121;
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17em;
@@ -151,7 +159,7 @@ font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
 .section-name {
-    color: #212121;
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19em;
@@ -164,8 +172,11 @@ font-family: Roboto, sans-serif;
     background-color: #2F303A;
 }
 .hero {
-    background-color: none#2F303A;
+    background-color: #2F303A;
 }
 .nav {
     background-color:#FFFFFF;
+}
+.section-comands {
+    background-color: #F5F4FA; 
 }
